@@ -9,7 +9,7 @@ td.textContent = 'Total';
 tr.append(td);
 const Total = document.createElement("td");
 Total.className = "total";
-
+Total.setAttribute("id", "ans");
 table.append(tr)
 let prices = document.querySelectorAll(".price");
 console.log(prices);
